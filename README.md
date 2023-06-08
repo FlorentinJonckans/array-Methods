@@ -1,6 +1,4 @@
-# array-methods
-
-### A cheat sheet of array methods:
+# A cheat sheet of array methods:
 
 #### [To add/remove elements](https://javascript.info/array-methods#add-remove-items):
 - push(...items) – adds items to the end,
