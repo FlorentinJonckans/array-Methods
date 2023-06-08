@@ -16,16 +16,16 @@
 - findIndex is like find, but returns the index instead of a value.
 
 #### To iterate over elements:
-- forEach(func) – calls func for every element, does not return anything.
+- [forEach](https://javascript.info/array-methods#iterate-foreach)(func) – calls func for every element, does not return anything.
         
 #### To transform the array:
-- map(func) – creates a new array from results of calling func for every element.
-- sort(func) – sorts the array in-place, then returns it.
-- reverse() – reverses the array in-place, then returns it.
-- split/join – convert a string to array and back.
-- reduce/reduceRight(func, initial) – calculate a single value over the array by calling func for each element and passing an intermediate result between the calls.
+- [map](https://javascript.info/array-methods#map)(func) – creates a new array from results of calling func for every element.
+- [sort](https://javascript.info/array-methods#sort-fn)(func) – sorts the array in-place, then returns it.
+- [reverse](https://javascript.info/array-methods#reverse)() – reverses the array in-place, then returns it.
+- [split/join](https://javascript.info/array-methods#split-and-join) – convert a string to array and back.
+- [reduce/reduceRight](https://javascript.info/array-methods#reduce-reduceright)(func, initial) – calculate a single value over the array by calling func for each element and passing an intermediate result between the calls.
 
 #### Additionally:
-- Array.isArray(value) checks value for being an array, if so returns true, otherwise false.
+- [Array.isArray](https://javascript.info/array-methods#array-isarray)(value) checks value for being an array, if so returns true, otherwise false.
 
 Please note that methods sort, reverse and splice modify the array itself.
