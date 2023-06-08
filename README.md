@@ -22,7 +22,7 @@
 - [map](https://javascript.info/array-methods#map)(func) – creates a new array from results of calling func for every element.
 - [sort](https://javascript.info/array-methods#sort-fn)(func) – sorts the array in-place, then returns it.
 - [reverse](https://javascript.info/array-methods#reverse)() – reverses the array in-place, then returns it.
-- [split/join](https://javascript.info/array-methods#split-and-join) – convert a string to array and back.
+- [split/join](https://javascript.info/array-methods#split-and-join)() – convert a string to array and back.
 - [reduce/reduceRight](https://javascript.info/array-methods#reduce-reduceright)(func, initial) – calculate a single value over the array by calling func for each element and passing an intermediate result between the calls.
 
 #### Additionally:
